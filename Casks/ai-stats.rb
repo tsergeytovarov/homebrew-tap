@@ -1,6 +1,6 @@
 cask "ai-stats" do
-  version "0.4.0"
-  sha256 "33a637aa1723e2d19ff70430e641fce64084431e06de23e35d444a13769d4305"
+  version "0.4.1"
+  sha256 "aa7c59ebe994777e007bdc364173ac4b71cbf06da0a28eb7ec908bc1040d4528"
 
   url "https://github.com/tsergeytovarov/ai-stats/releases/download/v#{version}/burn-#{version}.dmg"
   name "Burn"
