@@ -15,8 +15,11 @@ brew tap tsergeytovarov/tap
 macOS menu bar app для статистики использования AI-агентов и активности на GitHub.
 
 ```bash
+brew trust --cask tsergeytovarov/tap/ai-stats   # Homebrew вводит обязательный trust для сторонних тапов
 brew install --cask ai-stats
 ```
+
+> `brew trust` появился в Homebrew 5.1.15. На более старых версиях команды нет — шаг можно пропустить.
 
 Подробности: [tsergeytovarov/ai-stats](https://github.com/tsergeytovarov/ai-stats).
 
